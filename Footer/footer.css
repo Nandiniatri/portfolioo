@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#contactid{
+    background-color: #373737;
+    /* border: solid  red; */
+    margin-top: 100px;
+}
+.footer-grid{
+    /* border: solid skyblue; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.footer-grid img{
+    width: 80%;
+}
+.footer-grid h3{
+    /* margin-top: 10px;
+    margin-bottom: 10px;  */
+    font-size: 32px;
+    font-weight: 600;
+    color: #373737;
+    margin: 0 0 5px;
+}
+.footer-grid p{
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 30px; */
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.footerinfo{
+    /* border: solid yellowgreen; */
+    padding: 50px;
+}
+.footerinfo p{
+    color: #373737;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 0 30px;
+    margin-top: 10px;
+}
+.footerinfo2{
+    /* border: solid red; */
+    text-align: right;
+    margin-right: 10px;
+    padding: 50px;
+}
+form{
+    background-color: #ffff;
+    font-family: sans-serif;
+    padding: 30px;
+    width: 110%;
+    height: 560px;
+    /* border: solid; */
+}
+input{
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+textarea{
+    width: 450px;
+    height: 100px;
+    padding: 17px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.messages{
+    background: #FEC448;
+    border-color: #FEC448;
+    color: #373737;
+    box-shadow: 5px 5px 0 -2px #FF651C;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: ease all 0.35s;
+    display: inline-block;
+    margin-bottom:20px;
+}
+.footer-grid h5{
+    /* border: solid; */
+    font-size: 13px;
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+
+.phoneinfo{
+    /* border: solid red; */
+    text-align: center;
+}
+.phoneinfo {
+    background-color: #9BD3D0;
+    font-size: 30px;
+    color: #373737;
+    width: 65px;
+    height: 55px;
+}
+.phoneinfo .fa{
+    margin-top: 10px;
+    font-weight: 900;
+}
+#phoneinfo2-fa{
+    background-color: #FEC447;
+    font-size: 30px;
+    color: #373737;
+    width: 65px;
+    height: 55px;
+}
+#phoneinfo2-fa .fa{
+    margin-top: 14px;
+    font-weight: 900;
+} 
+#phoneinfo3-fa{
+    background-color:#FECCB5;
+    font-size: 30px;
+    color: #373737;
+    width: 110px;
+    height: 55px;
+}
+#phoneinfo3-fa .fa{
+    margin-top: 13px;
+    font-weight: 900;
+}
+
+.socila-media{
+    /* border: solid red; */
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    font-family: sans-serif;
+    border-top: solid 1px rgb(113, 107, 107);
+    padding: 20px;
+    margin-top: 50px;
+}
+.left-media{
+    /* border: solid; */
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-left: 26px;
+}
+.left-media a{
+    color: white;
+}
+.right-media{
+    margin-right: 30px;
+}
+li{
+    list-style: none;
+}
+.left-media li icon:hover{
+    color: #FF651C;
+    cursor: pointer;
+}
+.contactinfo{
+    /* border: solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 86px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.phoneNO{
+    /* border: solid; */
+    text-align: left;
+    /* margin-top: 10px; */
+}
+.form-inner-div{
+    /* border: solid; */
+    display: flex;
+    gap: 50px;
+}
+.form-inner-div-div1 input{
+    /* border: solid red; */
+    width: 105%;
+    padding: 15px;
+}
+.form-inner-div-div2 input{
+    /* border: solid red; */
+    width: 105%;
+    padding: 15px;
+}
+@media screen and (max-width: 400px){
+    .footer-grid{
+        /* border: solid; */
+        display: block;
+    }
+    textarea{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        margin-top: 30px;
+    } 
+    .footerinfo{
+        padding: 20px;
+    }
+    .footerinfo2{
+        /* border: solid; */
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .footerinfo2 img{
+        width: 100%;
+    }
+    .contactinfo{
+        /* border: solid; */
+        margin-left: 0px;
+    }
+    .phoneinfo{
+        /* border: solid red; */
+        width: 65px;
+        height: 55px;
+    }
+    .phoneinfo , #phoneinfo2-fa{
+        /* border: solid red; */
+        width: 65px;
+        height: 55px;
+    }
+    .phoneNO h5{
+        /* border: solid; */
+        font-size: 12px;
+    }
+    .socila-media{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        font-family: sans-serif;
+        text-align: center;
+        border-top: solid 1px rgb(113, 107, 107);
+        padding: 2ss0px;
+        line-height: 30px;
+    }
+    .left-media{
+        /* border: solid; */
+        display: flex;
+        text-align: center;
+        width: 40%;
+        margin-left: 100px;
+        padding: 6px;
+    }
+    /* .phone{
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-top: -60px;
+    } */
+}

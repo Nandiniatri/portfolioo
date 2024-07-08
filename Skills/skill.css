@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#skillid{
+    font-family: sans-serif;
+    margin: 35px;
+}
+.my-skill{
+    /* border: solid; */
+}
+#skillid h3{
+    font-size: 50px;
+    color: #373737;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.skill-grid{
+    /* border: solid; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    align-items: center;
+}
+.skill-conatiner{
+    /* border: solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    /* padding: 10px; */
+    margin-bottom: 140px;
+}
+.conatiner-1{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-1:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.conatiner-1 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+    color: #373737;
+}
+.conatiner-2{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    background-color: #fec447;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-2:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.conatiner-2 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+}
+.conatiner-3{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    background-color: #feccb5;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-3 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+}
+.conatiner-3:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.conatiner-4{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    background-color: #92b5ff;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-4 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+}
+.conatiner-4:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.conatiner-5{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    background-color: #c4d39b;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-5 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+}
+.conatiner-5:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+.conatiner-6{
+    padding: 30px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    align-items: center;
+    background-color: #9bd3d0;
+    height: 13vh;
+    background-color: #d2ceff;
+    gap: 15px;
+    color: #373737;
+    font-weight: 600;
+    width: 270px;
+}
+.conatiner-6 .fa{
+    border: solid 2px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #373737;
+}
+.conatiner-6:hover{
+    box-shadow: 6px 6px 0 -1px #373737;
+}
+
+
+@media screen and (max-width: 400px){
+    .skill-grid{
+        /* border: solid; */
+        display: block;
+        margin-top: 30px;
+    }
+    .skill-conatiner{
+        /* border: solid red; */
+        gap: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .conatiner-1 , .conatiner-2 ,.conatiner-3 , .conatiner-4, .conatiner-5, .conatiner-6{
+        width: 180px;
+        margin-top: 10px;
+        gap: 5px;
+    }
+    .conatiner-1 .fa , .conatiner-2 .fa, .conatiner-3 .fa , .conatiner-4 .fa , .conatiner-5 .fa , .conatiner-6 .fa{
+        /* border: solid red; */
+        padding: 7px;
+    }
+    .skillinfo img{
+        /* border: solid; */
+        width: 100%;
+    }
+    #skillid{
+        /* border: solid; */
+        width: 100%;
+        margin-left: 0;
+        /* text-align: center; */
+    }
+    #skillid h3 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .skillinfo{
+        /* border: solid; */
+    }
+}
