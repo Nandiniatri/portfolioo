@@ -8,6 +8,25 @@ export class Project{
             <h1>LATEST PROJECTS</h1>
             
             <div class="project-main-div">
+
+            <div class="project-grid"> 
+            <div class="projectinfo">
+                <img src="Screenshot (1619).png"/>
+            </div>
+
+            <div class="projectinfo">
+                <h4>Stanza Living Clone</h4>
+                <p>
+                Move-in to Fully Furnished, Hassle free PG at Zero Brokerage & One Month Security Deposit. Private & Sharing Furnished Rooms for Students & Working Professional with WiFi, Food...</p>
+                <div class="project-All-Btns-Div">
+                    <a target="_blank" href="https://stanzaliving-clone-nandini.netlify.app/"><button>VIEW PROJECT</button></a>
+                    <a target="_blank" href="https://github.com/Nandiniatri/PG-Finder-Clone"><button>VIEW IN GITHUB</button></a>
+                </div>
+            </div>
+        </div>
+
+
+
             <div class="project-grid"> 
                 <div class="projectinfo">
                     <img src="https://doccure.dreamstechnologies.com/assets/img/inner-pages/rtl-img.webp"/>

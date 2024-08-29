@@ -3,7 +3,7 @@ import './header.css';
 export class Header {
     constructor() {
     } 
-
+    
     renderHeaderData() {
         const header = `
         <div class="main-header-Container">
