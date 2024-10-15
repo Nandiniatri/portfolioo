@@ -12,7 +12,7 @@ export class Home{
             <h1>I'm a Front-end Developer |</h1>
             <span>Based in Noida Uttar Pradesh.</span>
             </br> 
-            <div class="home-btn-div"><a href="./File/Nandini's Resume.pdf" download target="_blank"><button>LET'S START</button></a></div>
+            <div class="home-btn-div"><a href="./File/Nandini.pdf" download target="_blank"><button>LET'S START</button></a></div>
         </div>
         <div class="home-main-div2">
             <img src="https://pxdraft.com/themeforest/krinky/assets/img/home-banner.png"/>

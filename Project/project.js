@@ -11,7 +11,7 @@ export class Project{
 
             <div class="project-grid"> 
             <div class="projectinfo">
-                <img src="Screenshot (1619).png"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG6L1EOKMX_TAKWdRxihIkgXYojtfrsTZQyv2AdaflV0bX-LEgn4jTm0i-5jaBgly2al8&usqp=CAU"/>
             </div>
 
             <div class="projectinfo">
@@ -62,7 +62,7 @@ export class Project{
     
         <div class="project-grid"> 
             <div class="projectinfo">
-                <img src="Screenshot (1025).png"/>
+                <img src="https://zanzaneetkitchen.com/wp-content/uploads/2021/11/BlogBesan-Laddoo.jpg"/>
             </div>
             
             <div class="projectinfo">
