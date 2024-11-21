@@ -67,7 +67,7 @@ export class Footer{
                 
             </div>
             <div class="right-media">
-                © 2023 copyright all right reserved
+                © 2024 copyright all right reserved
             </div>
         </div>`
 

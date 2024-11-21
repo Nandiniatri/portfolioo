@@ -8,7 +8,7 @@ export class Header {
         const header = `
         <div class="main-header-Container">
             <div class="main-header-div1">
-                <a href="#"><h1>Nandini Atri</h1></a> 
+                <a href="#Nandini Atri"><h1>Nandini Atri</h1></a> 
             </div>
             <a href="#id" id="menu-icon"><i style="font-size:30px" class="fa">&#xf0c9;</i></a> 
 
@@ -18,7 +18,7 @@ export class Header {
                     <a href="#services">SERVICES</a>
                     <a href="#skillid">SKILLS</a>
                     <a href="#projectid">PROJECTS</a>
-                    <a href="./File/Nandini's Resume.pdf" download target="_blank">RESUME</a>
+                    <a href="./File/Nandini Atri Resume.pdf" download target="_blank">RESUME</a>
                     <a href="#contactid">CONTACT</a> 
                 </nav> 
 

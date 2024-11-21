@@ -1,9 +1,9 @@
 import './project.css'
 
-export class Project{
-    constructor(){}
+export class Project {
+    constructor() { }
 
-    renderProjectData(){
+    renderProjectData() {
         const projectTpl = `<div id="projectid">
             <h1>LATEST PROJECTS</h1>
             
@@ -25,7 +25,21 @@ export class Project{
             </div>
         </div>
 
-
+        
+            <div class="project-grid"> 
+                <div class="projectinfo">
+                    <img src="https://d2oto3d7z6t29c.cloudfront.net/entries/transformed/75/f5/457769_3eb498eb5da94f4fbcb44a65e4ecc8d9.jpg"/>
+                </div>
+             
+            <div class="projectinfo">
+                    <h4>Macstore Replica</h4> 
+                    <p>Apple Website Clone – A responsive and visually stunning replica of Apple's official website. Designed to showcase the latest products, services, and innovations, this clone includes a sleek user interface and smooth navigation, providing a premium browsing experience similar to Apple's original site.</p>
+                <div class="project-All-Btns-Div">
+                    <a target="_blank" href="https://macstore-replica.netlify.app/"><button>VIEW PROJECT</button></a>
+                    <a target="_blank" href="https://github.com/Nandiniatri/Apple-Clone-"><button>VIEW IN GITHUB</button></a>
+                </div>
+            </div>
+        </div>
 
             <div class="project-grid"> 
                 <div class="projectinfo">
@@ -39,6 +53,22 @@ export class Project{
                 <div class="project-All-Btns-Div">
                     <a target="_blank" href="https://react-doccure-nandiniatri.netlify.app/"><button>VIEW PROJECT</button></a>
                     <a target="_blank" href="https://github.com/Nandiniatri/React-Doccure-Website"><button>VIEW IN GITHUB</button></a>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="project-grid"> 
+            <div class="projectinfo">
+                <img src="https://nafizanam.com/wp-content/uploads/2022/08/travellingsite-cover.jpg"/>
+            </div>
+
+            <div class="projectinfo">
+                <h4>Chisfis Clone</h4>
+                <p>Travel Hub – A comprehensive travel booking platform offering seamless flight and hotel reservations. Users can easily plan their trips, browse top destinations, and secure hotel bookings, all within a user-friendly interface.</p>
+                <div class="project-All-Btns-Div">
+                    <a target="_blank" href="https://transcendent-licorice-b2a6b7.netlify.app/"><button>VIEW PROJECT</button></a>
+                    <a target="_blank" href="https://github.com/Nandiniatri/chisnghiax-Clone"><button>VIEW IN GITHUB</button></a>
                 </div>
             </div>
         </div>
@@ -76,22 +106,6 @@ export class Project{
     </div>
 
 
-        <div class="project-grid"> 
-            <div class="projectinfo">
-                <img src="Screenshot (1026).png"/>
-            </div>
-
-            <div class="projectinfo">
-                <h4>Flipkart Clone</h4>
-                <p>
-                Flipkart is an Indian e-commerce company that connects buyers and sellers online.In this you can buy categories, including electronics, fashion, home goods, groceries, and more.</p>
-                <div class="project-All-Btns-Div">
-                    <a target="_blank" href="https://flipkart-clone-nandiniatri.netlify.app/"><button>VIEW PROJECT</button></a>
-                    <a target="_blank" href="https://github.com/Nandiniatri/React--flipkart"><button>VIEW IN GITHUB</button></a>
-                </div>
-            </div>
-        </div>
-
  </div>
     
       </div>`
@@ -107,3 +121,20 @@ export class Project{
 const project = new Project();
 project.renderProjectData();
 
+
+
+// <div class="project-grid">
+// <div class="projectinfo">
+//     <img src="Screenshot (1026).png"/>
+// </div>
+
+// <div class="projectinfo">
+//     <h4>Flipkart Clone</h4>
+//     <p>
+//     Flipkart is an Indian e-commerce company that connects buyers and sellers online.In this you can buy categories, including electronics, fashion, home goods, groceries, and more.</p>
+//     <div class="project-All-Btns-Div">
+//         <a target="_blank" href="https://flipkart-clone-nandiniatri.netlify.app/"><button>VIEW PROJECT</button></a>
+//         <a target="_blank" href="https://github.com/Nandiniatri/React--flipkart"><button>VIEW IN GITHUB</button></a>
+//     </div>
+// </div>
+// </div>

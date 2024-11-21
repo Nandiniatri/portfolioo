@@ -12,7 +12,7 @@ export class Experience {
             <h1>I'm a Front-end Developer.</h1>
             <p>Hello,
 
-My name is Nandini Atri, and I am an experienced front-end developer with 1.5 years of professional experience in front-end technologies. I have a strong foundation in HTML, CSS, JavaScript, and React.js, and I have successfully contributed to multiple projects, enhancing user experiences and ensuring responsive design.
+My name is Nandini Atri, and I am an experienced front-end developer with 1.6 years of professional experience in <b id="frontendB">Front-end Technologies</b>. I have a strong foundation in HTML, CSS, JavaScript, and React.js, and I have successfully contributed to multiple projects, enhancing user experiences and ensuring responsive design.
 
 I am excited to explore any front-end and web development positions available at your company. You can find further details about my experience and projects in my attached resume.
 <br>
@@ -32,7 +32,7 @@ Nandini Atri</p>
                     <a href="#contactid"><button>CONTACT ME</button></a>
                 </div>
                 <div class="div2-inner2">
-                    <a href="./File/Nandini.pdf" download target="_blank"><button>DOWNLOAD CV</button></a>
+                    <a href="./File/Nandini Atri Resume.pdf" download target="_blank"><button>DOWNLOAD CV</button></a>
                 </div>
             </div>
         </div>
