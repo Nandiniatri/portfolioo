@@ -10,7 +10,7 @@ export class Home {
         <div class="home-main-div1">
             <p>👋, MY NAME IS NANDINI ATRI</p>
             <h1>I'm a Front-end Developer |</h1>
-            <span>Based in Noida Uttar Pradesh.</span>
+            <span>Based in Bijnor Uttar Pradesh.</span>
             </br> 
             <div class="home-btn-div">
             <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">
