@@ -1,16 +1,13 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 .services-Main-Container{
-    /* border: solid; */
     padding: 10px;
-    /* background-image: url('https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-173620.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1714435200&semt=ais'); */
     background-color: rgb(254 196 72 / 10%);
 }
 .services-Main-Container-h1{
-    /* border: solid; */
     text-align: center;
     font-size: 23px;
     color: #373737;
@@ -20,16 +17,14 @@
     margin-top: 30px;
 }
 .services-Main1-Container{
-    /* border: solid red; */
+
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
     gap: 30px;
     padding: 40px;
 }
-.services-Main1-Container #one{
-    /* border: solid blue; */
-}
+
 .services-Main1-Container-innerDiv1{
     border: solid ;
     display: flex;
@@ -39,12 +34,8 @@
     transition: ease all 0.35s;
     background-color: #9BD3D0;
     gap: 20px;
-    /* opacity: 0;
-    transition: opacity 0.5s ease-in-out; */
 }
-/* .services-Main1-Container-innerDiv.visible {
-    opacity: 1;
-} */
+
 .services-Main1-Container-innerDiv1 h5{
     font-size: 24px;
     color: #373737;
@@ -193,14 +184,11 @@
 
 @media screen and (max-width: 400px) {
     .services-Main1-Container{
-        /* border: solid; */
+
         display: block;
     }
-    .services-Main-Container{
-        /* border: solid red; */
-    }
     .services-Main-Container-h1{
-        /* border: solid; */
+
         font-size: 16px;
         margin-top: 30px;
     }
@@ -214,4 +202,304 @@
         width: 250px;
     }
 } 
+ */
 
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.services-Main-Container {
+    padding: 20px;
+    background-color: rgb(254 196 72 / 10%);
+    min-height: 100vh;
+}
+
+.services-Main-Container-h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #373737;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.services-Main1-Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.services-Main1-Container-innerDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px solid #373737;
+    background: linear-gradient(135deg, #9BD3D0, #6e9d97);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.services-Main1-Container-innerDiv:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services-Main1-Container-innerDiv:hover .services-Main1-Container-innerDiv-icon {
+    transform: scale(1.1);
+}
+
+.services-Main1-Container-innerDiv-icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-Main1-Container-innerDiv h5 {
+    font-size: 22px;
+    color: #373737;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services-Main1-Container-innerDiv p {
+    font-size: 16px;
+    color: #373737;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.services-Main1-Container-innerDiv i {
+    font-size: 36px;
+    color: #373737;
+}
+
+.services-Main1-Container-innerDiv.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 400px) {
+    .services-Main-Container-h1 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .services-Main1-Container {
+        padding: 10px;
+    }
+
+    .services-Main1-Container-innerDiv {
+        margin-bottom: 20px;
+    }
+
+    .services-Main1-Container-innerDiv h5 {
+        font-size: 18px;
+    }
+
+    .services-Main1-Container-innerDiv p {
+        font-size: 14px;
+    }
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.services-Main-Container {
+    padding: 20px;
+    background-color: rgb(254 196 72 / 10%);
+    min-height: 100vh;
+}
+
+.services-Main-Container-h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #373737;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+    position: relative; /* Add positioning to apply z-index */
+    z-index: 10; /* Ensures the header stays on top of the service blocks */
+}
+
+/* Fade-in Animation for Header */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.services-Main1-Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    justify-items: center;
+    position: relative; /* Added relative positioning */
+}
+
+.services-Main1-Container-innerDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px solid #373737;
+    background: linear-gradient(135deg, #9BD3D0, #6e9d97);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: relative; /* Ensure positioning to avoid overlap */
+    z-index: 5; /* Lower than the header so it stays behind */
+}
+
+/* Scroll-based fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover Effects */
+.services-Main1-Container-innerDiv:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services-Main1-Container-innerDiv:hover .services-Main1-Container-innerDiv-icon {
+    transform: scale(1.1);
+}
+
+.services-Main1-Container-innerDiv-icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-Main1-Container-innerDiv h5 {
+    font-size: 22px;
+    color: #373737;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services-Main1-Container-innerDiv p {
+    font-size: 16px;
+    color: #373737;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.services-Main1-Container-innerDiv i {
+    font-size: 36px;
+    color: #373737;
+}
+
+/* Visibility class added when service block is visible in viewport */
+.services-Main1-Container-innerDiv.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 400px) {
+    .services-Main-Container-h1 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .services-Main1-Container {
+        padding: 10px;
+    }
+
+    .services-Main1-Container-innerDiv {
+        margin-bottom: 20px;
+    }
+
+    .services-Main1-Container-innerDiv h5 {
+        font-size: 18px;
+    }
+
+    .services-Main1-Container-innerDiv p {
+        font-size: 14px;
+    }
+}
