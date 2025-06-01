@@ -27,7 +27,7 @@ export class Project {
                 
                 <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-9bbc-61f9-9145-000410678a1b/raw?se=2025-06-01T17%3A18%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=81c73127-5d42-5db8-851c-6aca3c9f5724&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A24%3A24Z&ske=2025-06-01T22%3A24%3A24Z&sks=b&skv=2024-08-04&sig=RfXtpH17QIaXpiewsgrzr34I%2B0xQKiJg8zXAH82VInk%3D"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-9bbc-61f9-9145-000410678a1b/raw?se=2025-06-01T17%3A18%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=81c73127-5d42-5db8-851c-6aca3c9f5724&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A24%3A24Z&ske=2025-06-01T22%3A24%3A24Z&sks=b&skv=2024-08-04&sig=RfXtpH17QIaXpiewsgrzr34I%2B0xQKiJg8zXAH82VInk%3D" class="Own-Podcast-img" />
                 </div>
                 <div class="projectinfo">
                     <h4>Own Podcast</h4>
@@ -78,7 +78,7 @@ export class Project {
             <!-- Doccure Clone Project -->
             <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-8a30-61f9-a813-19016fe02673/raw?se=2025-06-01T17%3A24%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=419be2d5-bf77-57f1-8a2c-50fe45eb2d33&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-01T16%3A19%3A36Z&ske=2025-06-02T16%3A19%3A36Z&sks=b&skv=2024-08-04&sig=f6iHugEXOW7jTIFZ0987quUJ0Qa6JWwUkuxt7oLQzi0%3D"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-8a30-61f9-a813-19016fe02673/raw?se=2025-06-01T17%3A24%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=419be2d5-bf77-57f1-8a2c-50fe45eb2d33&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-01T16%3A19%3A36Z&ske=2025-06-02T16%3A19%3A36Z&sks=b&skv=2024-08-04&sig=f6iHugEXOW7jTIFZ0987quUJ0Qa6JWwUkuxt7oLQzi0%3D" class="doccure-clone-img"/>
                 </div>
                 <div class="projectinfo">
                     <h4>Doccure Clone</h4> 
