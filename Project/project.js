@@ -120,4 +120,3 @@ export class Project {
 
 const project = new Project();
 project.renderProjectData();
-
