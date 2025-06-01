@@ -11,7 +11,7 @@ export class Project {
 
               <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-8f44-6230-8873-9c19d29452a6/raw?se=2025-05-20T10%3A28%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=d4ff3bef-24d6-50e1-aec6-6e6c1586b448&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-20T00%3A32%3A18Z&ske=2025-05-21T00%3A32%3A18Z&sks=b&skv=2024-08-04&sig=3YNUjjgbFgS1b0sX7MtMWCZfyE%2BYwjVigG6ssR6L4dc%3D"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-58a4-61f9-bd67-914da5095edc/raw?se=2025-06-01T17%3A10%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=2e94f22f-ad54-5ea5-a229-a0824791ab6a&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A23%3A04Z&ske=2025-06-01T22%3A23%3A04Z&sks=b&skv=2024-08-04&sig=fuRap2dCIkhBcwELyrsd2KzdW4Qt6/MbEVFhy5KyL2s%3D"/>
                 </div>
                 <div class="projectinfo">
                     <h4>FlixBox</h4>
@@ -27,7 +27,7 @@ export class Project {
                 <-- own podcaste -->
                 <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-8f44-6230-8873-9c19d29452a6/raw?se=2025-05-20T10%3A28%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=d4ff3bef-24d6-50e1-aec6-6e6c1586b448&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-20T00%3A32%3A18Z&ske=2025-05-21T00%3A32%3A18Z&sks=b&skv=2024-08-04&sig=3YNUjjgbFgS1b0sX7MtMWCZfyE%2BYwjVigG6ssR6L4dc%3D"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-9bbc-61f9-9145-000410678a1b/raw?se=2025-06-01T17%3A18%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=81c73127-5d42-5db8-851c-6aca3c9f5724&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A24%3A24Z&ske=2025-06-01T22%3A24%3A24Z&sks=b&skv=2024-08-04&sig=RfXtpH17QIaXpiewsgrzr34I%2B0xQKiJg8zXAH82VInk%3D"/>
                 </div>
                 <div class="projectinfo">
                     <h4>Own Podcast</h4>
@@ -78,7 +78,7 @@ export class Project {
             <!-- Doccure Clone Project -->
             <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-ca50-61f8-a487-49d502e3e56e/raw?se=2025-05-20T10%3A36%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=d8c01db9-7fbc-5708-997c-c50b1f190d3d&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-20T00%3A30%3A09Z&ske=2025-05-21T00%3A30%3A09Z&sks=b&skv=2024-08-04&sig=gqz5012rr9f6I3MkQsFg4LNpFslTA36sHT4y5pKUWAE%3D"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-8a30-61f9-a813-19016fe02673/raw?se=2025-06-01T17%3A24%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=419be2d5-bf77-57f1-8a2c-50fe45eb2d33&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-01T16%3A19%3A36Z&ske=2025-06-02T16%3A19%3A36Z&sks=b&skv=2024-08-04&sig=f6iHugEXOW7jTIFZ0987quUJ0Qa6JWwUkuxt7oLQzi0%3D"/>
                 </div>
                 <div class="projectinfo">
                     <h4>Doccure Clone</h4> 
