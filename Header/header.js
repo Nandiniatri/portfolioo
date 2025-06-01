@@ -33,5 +33,5 @@ export class Header {
 }
 
 const header = new Header();
-header.renderHeaderData();
+header.renderHeaderData(); 
 

@@ -88,7 +88,6 @@ import './footer.css';
 import emailjs from '@emailjs/browser';
 
 
-// EmailJS CDN loaded via index.html
 export class Footer {
   constructor() {}
 
