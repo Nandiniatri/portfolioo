@@ -32,11 +32,21 @@
     padding: 10px;
     font-family: sans-serif;
 }
-.projectinfo img{
+/* .projectinfo img{
     width: 500px;
     border: solid white;
     height: 48vh;
     border-radius: 10px;
+} */
+
+.projectinfo img {
+    width: 100%;
+    max-width: 500px; /* Limits the size on large screens */
+    height: auto;
+    border: solid white;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
 }
 
 .design{
