@@ -17,11 +17,33 @@ export class Project {
                     <h4>FlixBox</h4>
                     <p>This project is a cartoon animation-based website that showcases proper animated videos. It features interactive elements and dynamic content, providing users with an engaging animation experience. The main focus of the website is visual storytelling and fun animations, designed to entertain viewers.</p>
                     <div class="project-All-Btns-Div">
+                        <a target="_blank" href="https://own-podcast.netlify.app/"><button>VIEW PROJECT</button></a>
+                        <a target="_blank" href="https://github.com/Nandiniatri/owm-Podcasts"><button>VIEW IN GITHUB</button></a>
+                    </div>
+                </div>
+            </div>
+
+
+                <-- own podcaste -->
+                <div class="project-grid"> 
+                <div class="projectinfo">
+                    <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-8f44-6230-8873-9c19d29452a6/raw?se=2025-05-20T10%3A28%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=d4ff3bef-24d6-50e1-aec6-6e6c1586b448&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-20T00%3A32%3A18Z&ske=2025-05-21T00%3A32%3A18Z&sks=b&skv=2024-08-04&sig=3YNUjjgbFgS1b0sX7MtMWCZfyE%2BYwjVigG6ssR6L4dc%3D"/>
+                </div>
+                <div class="projectinfo">
+                    <h4>Own Podcast</h4>
+                    <p>I developed a responsive podcast web app where users can click on
+                        a card to watch the video.
+                        It is built using HTML, CSS, JavaScript, and React.js to ensure
+                        smooth performance and clean UI.
+                    </p>
+                    <div class="project-All-Btns-Div">
                         <a target="_blank" href="https://flixid-website.netlify.app/"><button>VIEW PROJECT</button></a>
                         <a target="_blank" href="https://github.com/Nandiniatri/Flix.Id"><button>VIEW IN GITHUB</button></a>
                     </div>
                 </div>
             </div>
+            <-- own podcaste -->
+
 
             <!-- Stanza Living Clone Project -->
             <div class="project-grid"> 
