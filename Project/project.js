@@ -24,7 +24,7 @@ export class Project {
             </div>
 
 
-                <-- own podcaste -->
+                
                 <div class="project-grid"> 
                 <div class="projectinfo">
                     <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-9bbc-61f9-9145-000410678a1b/raw?se=2025-06-01T17%3A18%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=81c73127-5d42-5db8-851c-6aca3c9f5724&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A24%3A24Z&ske=2025-06-01T22%3A24%3A24Z&sks=b&skv=2024-08-04&sig=RfXtpH17QIaXpiewsgrzr34I%2B0xQKiJg8zXAH82VInk%3D"/>
@@ -42,13 +42,13 @@ export class Project {
                     </div>
                 </div>
             </div>
-            <-- own podcaste -->
+            
 
 
             <!-- Stanza Living Clone Project -->
             <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG6L1EOKMX_TAKWdRxihIkgXYojtfrsTZQyv2AdaflV0bX-LEgn4jTm0i-5jaBgly2al8&usqp=CAU"/>
+                    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-83a8-61f9-9b89-c543a67a1e5b/raw?se=2025-06-01T17%3A50%3A41Z&sp=r&sv=2024-08-04&sr=b&scid=48b763b3-7178-5e84-8e42-510517e25732&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-31T22%3A22%3A58Z&ske=2025-06-01T22%3A22%3A58Z&sks=b&skv=2024-08-04&sig=5NAeqAjYRVcFyWj9EM9TjOb26fli7vcNLMVV%2Bkz/%2B4k%3D"/>
                 </div>
                 <div class="projectinfo">
                     <h4>Stanza Living Clone</h4>
