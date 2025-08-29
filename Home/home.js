@@ -1,9 +1,7 @@
 import './home.css'
 
 export class Home {
-    constructor() {
-
-    }
+    constructor() {}
 
     renderHomeData() {
         const homeTpl = `<div class="home-main-container" id="home">

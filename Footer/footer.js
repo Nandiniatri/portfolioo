@@ -142,7 +142,6 @@ export class Footer {
 
       <div class="socila-media">
         <div class="left-media">
-          <li><a target="_blank" href="https://www.linkedin.com/in/nandini-atri-494881232/"><i class="fa fa-linkedin"></i></a></li>
           <li><a target="_blank" href="https://github.com/Nandiniatri"><i class="fa fa-github"></i></a></li>
           <li><a target="_blank" href="https://www.instagram.com/nandiniatri/?igsh=MWhjeWRhajUxMDNhdA%3D%3D"><i class="fa fa-instagram"></i></a></li>
         </div>

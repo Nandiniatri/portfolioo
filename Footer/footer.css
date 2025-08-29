@@ -155,7 +155,7 @@ textarea{
 .left-media{
     /* border: solid; */
     display: flex;
-    width: 10%;
+    width: 4%;
     justify-content: space-between;
     margin-left: 26px;
 }
