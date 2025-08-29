@@ -109,11 +109,7 @@ export class Experience {
                             <button>CONTACT ME</button>
                         </a>
                     </div>
-                    <div class="div2-inner2">
-                        <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">
-                            <button>DOWNLOAD CV</button>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -128,3 +124,11 @@ export class Experience {
 
 const experience = new Experience();
 experience.renderExperienceData();
+
+
+
+// <div class="div2-inner2">
+//                         <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">
+//                             <button>DOWNLOAD CV</button>
+//                         </a>
+//                     </div>

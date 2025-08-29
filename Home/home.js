@@ -11,7 +11,7 @@ export class Home {
             <span>Based in Bijnor Uttar Pradesh.</span>
             </br> 
             <div class="home-btn-div">
-            <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">
+            <a href="Let's Start">
                 <button>LET'S START</button>
             </a></div>
         </div>
@@ -32,3 +32,7 @@ const home = new Home();
 home.renderHomeData();
 
 {/* <h1 class="developer"> </h1> */ }
+
+//  <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">
+//                 <button>LET'S START</button>
+//             </a></div>
