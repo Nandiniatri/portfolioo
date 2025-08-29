@@ -18,7 +18,6 @@ export class Header {
                     <a href="#services">SERVICES</a>
                     <a href="#skillid">SKILLS</a>
                     <a href="#projectid">PROJECTS</a>
-                    <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">RESUME</a>
                     <a href="#contactid">CONTACT</a> 
                 </nav> 
 
@@ -35,3 +34,6 @@ export class Header {
 const header = new Header();
 header.renderHeaderData(); 
 
+
+
+{/* <a href="/Nandini Atri-Frontend-Resume.pdf" download target="_blank">RESUME</a>/ */}
